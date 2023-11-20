@@ -1,0 +1,24 @@
+Bootstrap
+
+Comment afficher le jeu:
+ - Copier tout le repositorie dans un dossier.
+ - Taper dans l'inviter de commande "java Game.java".
+
+Comment jouer:
+- Utiliser les flèches du clavier pour se déplacer.
+
+Game.java:
+  - JFrame pour afficher une fenêtre.
+  - Timer pour rafraichir la page.
+  - KeyPressed pour enregistrer les touches enfoncées.
+  - main pour lancer une partie.
+
+Display.java:
+ - Les méthodes randomAttack et randomNumberOfAttack attribut des coordonées au hazards pour les differents item.
+ - La méthode paintComponent permet de faire des dessins:
+    - Le carré bleu = Player.
+    - Le rond vert = Item HP.
+    - le rond rouge = Item Attack.
+    - le rond rose= Item Nombre d'attaques.
+ - Les méthodes ...Collision() vérifie si le Player est sur un element au quel cas il le récupère.
+
